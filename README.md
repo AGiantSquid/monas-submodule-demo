@@ -46,15 +46,12 @@ monas install --include acme-demo-service
 
 This will create a .venv in the `acme-demo-service/` directory and install the `acme-demo-service` package and all of its local dependencies in editable mode.
 
-If you would prefer to install the service in the root of the project add the `--root` flag to the command: 
+Then, you can activate the .venv and begin using the local code.
 
 ```
-monas install --include acme-demo-service --root
-```
-
-Then, you can activate the .venv where you chose to install it, and begin using the local code.
-
-```
+cd acme-demo-service
 source .venv/bin/activate
 python -c "import acme.demo_service"
 ```
+
+If you edit code from any of the packages in the submoduled common mono-repo, the results will be visible immediately.
