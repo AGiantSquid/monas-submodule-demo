@@ -1,7 +1,7 @@
-from acme.lib_b import func_b
+from acme.lib_a import func_a
 
 def demo_service_func():
-    print('hello from demo_service_func')
-    func_b()
+    print('hello from acme.demo_service, demo_service_func')
+    func_a()
 
 demo_service_func()

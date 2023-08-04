@@ -1,6 +1,6 @@
 [tool.monas]
 packages = [
-    "monas-example-repo/",  # first dir is where new packages will be added
+    "monas-namespace-package-example/",  # first dir is where new packages will be added
     "./",
 ]
 version = "0.0.0"
